@@ -1,4 +1,4 @@
-class Person {
+class ArrayEniola {
     books: string[]
 
     constructor(books: string[]) {
@@ -59,7 +59,7 @@ class Person {
 }
 
 const book1 = ["lola", "back", "right", "left", "eniola"];
-const book2 = new Person(book1);
+const book2 = new ArrayEniola(book1);
 // console.log(book2);
 // book2.forEachElement();
 // book2.forFilter("l");
