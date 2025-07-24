@@ -9,10 +9,9 @@ for (let i = 0; i < n; i++) {
             arr[j + 1] = temp;
             swapped = true
         }
-        if (!swapped) {
-            break
-        }
+        if (!swapped) break;
     }
+    if (!swapped) break;
 }
 
 console.log(arr);
